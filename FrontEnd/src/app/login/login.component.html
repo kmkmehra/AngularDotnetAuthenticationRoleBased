@@ -1,0 +1,25 @@
+<div class="container w-50 mt-5">
+    <div class="card p-2">
+        <h5 class="px-2 text-uppercase">Enter Credentials To Login</h5>
+        <span class="border-bottom mb-2"></span>
+        <form #loginForm="ngForm" (ngSubmit)="login(loginForm.value)">
+            <input type="text"
+            ngModel
+            name="userName"
+            placeholder="Enter your username"
+            class="form-control mb-3"
+            >
+
+            <input type="password"
+            ngModel
+            name="Password"
+            placeholder="Enter your password"
+            class="form-control mb-3"
+            >
+
+            <input type="submit"
+            value="Login"
+            class="btn btn-outline-primary form-control rounded-0">
+        </form>
+    </div>
+</div>

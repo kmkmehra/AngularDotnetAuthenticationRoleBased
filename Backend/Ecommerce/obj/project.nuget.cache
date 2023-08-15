@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ceKFtEY/LXs4Oc/m4Bier2H86olBDT6wksCwbR+YgprqsQ4gSC+ogFdw5d7Fo/VgrF7UWDfoMvVfpvdAfg7VpA==",
+  "dgSpecHash": "uWuA+YR3hzaJjnZ7RLo/bgZAT+gnA2XUPjIajCbX3ovh+JYZHe5WK+NdYpUGQ+c2/fTxoFhe43oFKRqBZotYgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dell\\Desktop\\Practise\\ecommerce\\backend\\Ecommerce\\Ecommerce\\Ecommerce.csproj",
+  "projectFilePath": "C:\\Users\\dell\\Desktop\\GIT\\AngularDotnetAuthenticationRoleBased\\Backend\\Ecommerce\\Ecommerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.20\\microsoft.aspnetcore.authentication.jwtbearer.6.0.20.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

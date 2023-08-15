@@ -11,6 +11,7 @@ import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.compo
 import { ForbiddenAccessComponent } from './forbidden-access/forbidden-access.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationGuard } from './_guards/authentication.guard';
 
 
 @NgModule({
@@ -29,7 +30,9 @@ import { FormsModule } from '@angular/forms';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    AuthenticationGuard,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

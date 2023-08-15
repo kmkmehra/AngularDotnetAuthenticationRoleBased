@@ -12,4 +12,6 @@ export class UserService {
     var headers:any={}; 
     return this.httpClient.post(this.PATH_OF_API + '/Authentication/Login', param, headers);
   }
+
+  
 }
